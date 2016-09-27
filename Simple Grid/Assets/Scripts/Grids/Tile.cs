@@ -46,8 +46,6 @@ namespace OL
             DefaultColor = Sprite.color;
         }
 
-
-
         public float DistanceFrom(Tile tile)
         {
             return tile.Point.Distance(Point);
